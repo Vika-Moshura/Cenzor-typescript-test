@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    height: 40%;
+    background-color: rgba(211, 211, 211, 0.681);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.badWords {
+    font-size: 25px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.prohibitedWords {
+    color: red;
+}
+
+.input1,
+.input2 {
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.writeProhibitedWord {
+    width: 50%;
+    height: 50px;
+}
+
+.btn {
+    width: 20%;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.addProhibitedWord {
+    background-color: yellow;
+    color: black;
+
+}
+
+.resetProhibitedWord {
+    background-color: red;
+}
+
+.writeText {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 20px;
+}
+
+.cenzor {
+    margin-top: 10px;
+    border: none;
+    width: 90%;
+    height: 50px;
+    color: white;
+    background-color: rgb(26, 119, 26);
+    font-size: 15px;
+}
+
+.btn:hover,
+.cenzor:hover {
+    cursor: pointer;
+    scale: 0.97;
+}
+
+.writeProhibitedWord:focus,
+.writeText:focus {
+    outline: none;
+    border: 2px solid rgb(123, 175, 184);
+}
